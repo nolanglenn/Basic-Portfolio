@@ -1,43 +1,48 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
 
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Nolan Glenn Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="../Basic-Portfolio/assets/css/style.css" />
 
 </head>
 
 <body>
-    <div>
-        <div>
-            <h1>Nolan Glenn</h1>
-            <a href="index.html">About</a>
-            <a href="portfolio.html">Portfolio</a>
-            <a href="contact.html">Contact</a>
+    <div class="main-container">
+        <div class="container">
+            <section class="top-bar">
+                <div class="top-content">
+                    <h1>Nolan Glenn</h1>
+                    <ul class="nav-menu">
+                        <li><a href="index.html">About</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </section>
 
-        </div>
-
-        <div>
-            <h2>Contact</h2>
-            <hr>
-            <form action="/action_page.php" method="get" id="contactform">
-                Name:<br>
-                <input type="text" name="fullname" placeholder="John Smith">
-                <br>
-                Email:<br>
-                <input type="text" name="email" placeholder="example@gmail.com">
-                <br>
-                Message:<br>
-                <input type="text" name="message">
-            </form>
-            <button type="submit" form="contactform" value="Submit">Submit</button>
-            <footer>
-                <small>&copy; Copyright 2018</small>
-            </footer>
+            <div>
+                <h2>Contact</h2>
+                <hr>
+                <form action="/action_page.php" method="get" id="contactform">
+                    Name:<br>
+                    <input type="text" name="fullname" placeholder="John Smith">
+                    <br>
+                    Email:<br>
+                    <input type="text" name="email" placeholder="example@gmail.com">
+                    <br>
+                    Message:<br>
+                    <input type="text" name="message">
+                </form>
+                <button type="submit" form="contactform" value="Submit">Submit</button>
+                <footer>
+                    <small>&copy; Copyright 2018</small>
+                </footer>
+            </div>
         </div>
     </div>
 </body>
