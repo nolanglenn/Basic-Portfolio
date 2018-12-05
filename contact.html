@@ -25,22 +25,30 @@
                 </div>
             </section>
 
-            <section>
-                <h2>Contact</h2>
-                <hr>
-                <form action="/action_page.php" method="get" id="contactform">
-                    Name:<br>
-                    <input type="text" name="fullname" placeholder="John Smith">
-                    <br>
-                    Email:<br>
-                    <input type="text" name="email" placeholder="example@gmail.com">
-                    <br>
-                    Message:<br>
-                    <input type="text" name="message">
-                </form>
-                <button type="submit" form="contactform" value="Submit">Submit</button>
+            <section class="middle-section">
+                <div class="clearfix">
+                    <div class="middle-content">
+                        <h2>Contact</h2><br>
+                        
+                        <br><hr><br>
+
+                        <form action="https://formspree.io/nolangglenn@gmail.com" method="POST" id="contactform">
+                            Name:<br>
+                            <input class="input-field" type="text" name="fullname" placeholder="John Smith">
+                            <br>
+                            Email:<br>
+                            <input class="input-field" type="text" name="email" placeholder="example@gmail.com">
+                            <br>
+                            Message:<br>
+                            <textarea id="message-field" name="message"></textarea>
+                        </form>
+                        <button id="submit-button" type="submit" form="contactform" value="Submit">Submit</button>
+                    </div>
+
+                </div>
+                
             </section>
-            
+
             <footer>
                     <small>&copy; Copyright 2018</small>
             </footer>

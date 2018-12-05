@@ -124,7 +124,7 @@ menu */
     display: inline;
 }
 
-/* This is the styling specific to the Portfolio page */
+/* ------------This is the styling specific to the Portfolio page------------ */
 .project-item {
     width: 180px;
     height: auto;
@@ -150,6 +150,34 @@ menu */
   .project-item .image-text:hover {
       background-color: #555;
   }
+
+/* ------------This is the styling specific to the Contact page------------ */
+.input-field {
+    width: 100%;
+    padding: 8px;
+    margin: 8px;
+    margin-bottom: 10px;
+}
+
+#message-field {
+    padding: 20px; 
+    width: 100%;
+    height: 150px;
+    resize: vertical;
+    overflow: auto;
+    margin: 8px;
+}
+
+#submit-button {
+    width: 100px;
+    height: 40px;
+    background-color: #4aaaa5; 
+    text-align: center;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin: 10px 0 0 6px;
+}
 
 /* This styles the footer section on each page */
 footer {
