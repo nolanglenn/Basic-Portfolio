@@ -125,7 +125,7 @@ menu */
 }
 
 /* This is the styling specific to the Portfolio page */
-.project {
+.project-item {
     width: 180px;
     height: auto;
     float:left;
@@ -147,7 +147,7 @@ menu */
     margin: 0 auto;
   }
 
-  .project .image-text:hover {
+  .project-item .image-text:hover {
       background-color: #555;
   }
 
