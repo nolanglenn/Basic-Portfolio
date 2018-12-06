@@ -25,7 +25,7 @@ html, body {
 /* Main styling across the site */
 body {
     background-color: #ffffff;
-    background-image: url("../../assets/images/pipes.png");
+    background-image: url("../../assets/images/pink\ dust.png");
     font-family: Arial, Helvetica, sans-serif;
     color: #777777;
     margin: 0;
@@ -95,6 +95,14 @@ menu */
     padding: 16px;
     text-decoration: none;
     color: #777777;
+}
+
+.menu-dividers {
+    margin-top: 17px;
+    float: left;
+    width: 1px;
+    height: 15px;
+    background-color: rgb(212, 212, 212);
 }
 
 /* This styles the middle section on each page */
